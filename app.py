@@ -12,5 +12,5 @@ def predict(img):
 title = "find differents type of tank"
 description = "<p style='text-align: center'>Identitifer des tank t72 contre des char leclerc.</p>"
 
-app = gr.Interface(fn=predict, inputs=gr.inputs.Image(shape=(512, 512)), outputs=gr.outputs.Label(num_top_classes=2),title = title)
-app.launch(share=True)
+app = gr.Interface(fn=predict, inputs=gr.inputs.Image(shape=(512, 512)), outputs=gr.outputs.Label(num_top_classes=2),title = title, description = desc)
+app.launch()

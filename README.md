@@ -1,12 +1,8 @@
----
-title: SimpleTankRecognition
-emoji: 😻
-colorFrom: red
-colorTo: pink
-sdk: gradio
-sdk_version: 3.16.1
-app_file: app.py
-pinned: false
----
+## reconnaissance de type de char (t72 et leclerc pour l'instant)
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+Créer un programme de reconnaissance de différent tank pour mieux connaitre les forces en présence
+
+### Demo: 
+
+lien huggingFace
+https://huggingface.co/spaces/Tishh/SimpleTankRecognition
